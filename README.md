@@ -1,0 +1,2 @@
+# Express.js 404 Error Handling
+This repository demonstrates a common error in Express.js applications: unhandled 404 errors. The provided code starts a server that responds to the root path ('/') but doesn't handle requests to other routes, resulting in a 404 error. A solution is also provided that addresses this issue by implementing a wildcard route to gracefully handle requests to non-existent paths.
